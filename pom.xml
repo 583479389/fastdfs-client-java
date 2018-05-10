@@ -8,7 +8,11 @@
   <name>fastdfs-client-java</name>
   <description>fastdfs client for java</description>
   <packaging>jar</packaging>
-
+  <parent>
+    <groupId>cn.me</groupId>
+    <artifactId>fastdfs-zyc</artifactId>
+    <version>1.0</version>
+  </parent>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
